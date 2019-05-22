@@ -1,0 +1,162 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        html body .iconfont{
+            font-size: 50px;
+        }
+
+        .top{
+            height:70px;
+            border:solid 1px black;
+            font-size:40px;
+            line-height:70px;
+
+        }
+
+
+        #wrap .top .time{
+            width:200px;
+            float:left;
+        }
+        #wrap .top .icons{
+            width:200px;
+            float:right;
+        }
+        #wrap .titles{
+            height:90px;
+            border:solid 1px black;
+
+        }
+        #wrap .titles .tit_content{
+            width:700px;
+            float:left;
+            font-size: 50px;
+            line-height:  90px;
+            text-align: center;
+        }
+        #wrap .titles .titl_icontent{
+            width:200px;
+            float:right;
+            line-height:  90px;
+        }
+        #wrap .titles .titl_icontent .a{
+            width:500px;
+            height:750px;
+            background-color: black;
+            position: absolute;
+            left:429px;
+            top:160px;
+            display:none;
+            opacity:0.7;
+        }
+        #wrap .titles .titl_icontent{
+            list-style: none;
+        }
+
+        #wrap .titles .titl_icontent span:hover .a{
+            display: block;
+            font-size: 60px;
+            line-height: 150px;
+            color: #eaffea;
+
+        }
+
+
+        #wrap div ul{
+            list-style: none;
+            height:1380px;
+            /*overflow:hidden;*/
+            overflow: scroll;
+        }
+        #wrap div ul li{
+            height:130px;
+            border-bottom: solid 1px black;
+            font-size: 30px;
+            line-height: 150px;
+        }
+        #wrap img{
+            width:100px;
+            height:100px;
+            line-height: 10px;
+
+        }
+        #wrap .manager{
+            height:150px;
+            border:solid 1px black;
+            display: flex;
+            background-color:#aaaaaa;
+        }
+        #wrap .manager div{
+            flex: 1;
+            border:solid 1px #aaaaaa;
+            text-align: center;
+            font-size: 50px;
+            line-height: 70px;
+            /*cursor:pointer;*/
+        }
+        #wrap .manager div a{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <div class="time">下午5：20</div>
+        <div class="icons">
+            <span class="iconfont test">&#xe767;</span>
+            <span class="iconfont test">&#xe614;</span>
+            <span class="iconfont test">&#xe652;</span>
+        </div>
+
+    </div>
+    <div class="titles">
+        <div class="tit_content">微信</div>
+        <div class="titl_icontent">
+            <span class="iconfont test">&#xe783;</span>
+            <span class="iconfont test">&#xe68a;
+           <div class="a">
+               <li><span class="iconfont">&#xeb3e;;</span>发起群聊</li>
+               <li><span class="iconfont">&#xe68a;</span>添加朋友</li>
+               <li><span class="iconfont">&#xe62c;</span>扫一扫</li>
+               <li><span class="iconfont">&#xe61f;</span>收付款</li>
+               <li><span class="iconfont">&#xe62b;</span>帮助与反馈</li>
+           </div>
+            </span>
+            <!--<span class="iconfont test">&#xe783;</span>-->
+        </div>
+
+    </div>
+    <div>
+        <ul>
+            <li><img src="img/zara.jpg"><span>中国浦发银行</span><span></span></li>
+            <li><img src="img/KFC.jpg">中国兴业银行</li>
+            <li><img src="img/必胜客.jpg">中国民生银行</li>
+            <li><img src="img/东宫3.jpg">中国广发银行</li>
+            <li><img src="img/比熊.jpg">中国华夏银行</li>
+            <li><img src="img/神仙03.jpg">中国储蓄银行</li>
+            <li><img src="img/神仙02.jpg">中国平安银行</li>
+            <li><img src="img/神仙06.jpg">中国建设银行</li>
+            <li><img src="img/比熊01.jpg">中国农业银行</li>
+            <li><img src="img/朱一龙.jpg">中国工商银行</li>
+            <li><img src="img/布偶猫.jpg">中国银行</li>
+            <li><img src="img/宋威龙.jpg">中国光大银行</li>
+            <li><img src="img/女神01.jpg">中国交通银行</li>
+            <li><img src="img/登录界面.jpg">中国招商银行</li>
+        </ul>
+    </div>
+    <div class="manager">
+
+        <div><span class="iconfont font">&#xe62b;</span><br><span><a href="微信聊天界面.html">微信</a></span></div>
+        <div><span class="iconfont font">&#xe722;</span><br><span><a href="微信通讯录.html">通讯录</a></span></div>
+        <div><span class="iconfont font">&#xe621;</span><br><span><a href="微信发现.html">动态</a></span></div>
+        <div><span class="iconfont font">&#xe608;</span><br><span><a href="微信我的.html">我的</a></span></div>
+    </div>
+</div>
+
+</body>
+</html>
